@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14C44FDE19579BB40049383D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C44FDD19579BB40049383D /* main.swift */; };
+		14C44FE019579BB40049383D /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C44FDF19579BB40049383D /* Document.swift */; };
+		14C44FE319579BB40049383D /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14C44FE119579BB40049383D /* Document.xib */; };
+		14C44FE519579BB40049383D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C44FE419579BB40049383D /* Images.xcassets */; };
+		14C44FE819579BB40049383D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14C44FE619579BB40049383D /* MainMenu.xib */; };
+		14C44FF419579BB40049383D /* MIDIMacTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C44FF319579BB40049383D /* MIDIMacTestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14C44FEE19579BB40049383D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14C44FD019579BB40049383D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14C44FD719579BB40049383D;
+			remoteInfo = MIDIMacTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14C44FD819579BB40049383D /* MIDIMacTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIDIMacTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C44FDC19579BB40049383D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C44FDD19579BB40049383D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		14C44FDF19579BB40049383D /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		14C44FE219579BB40049383D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		14C44FE419579BB40049383D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14C44FE719579BB40049383D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		14C44FED19579BB40049383D /* MIDIMacTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIDIMacTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C44FF219579BB40049383D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C44FF319579BB40049383D /* MIDIMacTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIMacTestTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14C44FD519579BB40049383D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C44FEA19579BB40049383D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14C44FCF19579BB40049383D = {
+			isa = PBXGroup;
+			children = (
+				14C44FDA19579BB40049383D /* MIDIMacTest */,
+				14C44FF019579BB40049383D /* MIDIMacTestTests */,
+				14C44FD919579BB40049383D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14C44FD919579BB40049383D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14C44FD819579BB40049383D /* MIDIMacTest.app */,
+				14C44FED19579BB40049383D /* MIDIMacTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14C44FDA19579BB40049383D /* MIDIMacTest */ = {
+			isa = PBXGroup;
+			children = (
+				14C44FDF19579BB40049383D /* Document.swift */,
+				14C44FE119579BB40049383D /* Document.xib */,
+				14C44FE419579BB40049383D /* Images.xcassets */,
+				14C44FE619579BB40049383D /* MainMenu.xib */,
+				14C44FDB19579BB40049383D /* Supporting Files */,
+			);
+			path = MIDIMacTest;
+			sourceTree = "<group>";
+		};
+		14C44FDB19579BB40049383D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14C44FDC19579BB40049383D /* Info.plist */,
+				14C44FDD19579BB40049383D /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14C44FF019579BB40049383D /* MIDIMacTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				14C44FF319579BB40049383D /* MIDIMacTestTests.swift */,
+				14C44FF119579BB40049383D /* Supporting Files */,
+			);
+			path = MIDIMacTestTests;
+			sourceTree = "<group>";
+		};
+		14C44FF119579BB40049383D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14C44FF219579BB40049383D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14C44FD719579BB40049383D /* MIDIMacTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C44FF719579BB40049383D /* Build configuration list for PBXNativeTarget "MIDIMacTest" */;
+			buildPhases = (
+				14C44FD419579BB40049383D /* Sources */,
+				14C44FD519579BB40049383D /* Frameworks */,
+				14C44FD619579BB40049383D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIDIMacTest;
+			productName = MIDIMacTest;
+			productReference = 14C44FD819579BB40049383D /* MIDIMacTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14C44FEC19579BB40049383D /* MIDIMacTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C44FFA19579BB40049383D /* Build configuration list for PBXNativeTarget "MIDIMacTestTests" */;
+			buildPhases = (
+				14C44FE919579BB40049383D /* Sources */,
+				14C44FEA19579BB40049383D /* Frameworks */,
+				14C44FEB19579BB40049383D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14C44FEF19579BB40049383D /* PBXTargetDependency */,
+			);
+			name = MIDIMacTestTests;
+			productName = MIDIMacTestTests;
+			productReference = 14C44FED19579BB40049383D /* MIDIMacTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14C44FD019579BB40049383D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Anders Forssell";
+				TargetAttributes = {
+					14C44FD719579BB40049383D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					14C44FEC19579BB40049383D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 14C44FD719579BB40049383D;
+					};
+				};
+			};
+			buildConfigurationList = 14C44FD319579BB40049383D /* Build configuration list for PBXProject "MIDIMacTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14C44FCF19579BB40049383D;
+			productRefGroup = 14C44FD919579BB40049383D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14C44FD719579BB40049383D /* MIDIMacTest */,
+				14C44FEC19579BB40049383D /* MIDIMacTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14C44FD619579BB40049383D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C44FE319579BB40049383D /* Document.xib in Resources */,
+				14C44FE519579BB40049383D /* Images.xcassets in Resources */,
+				14C44FE819579BB40049383D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C44FEB19579BB40049383D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14C44FD419579BB40049383D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C44FE019579BB40049383D /* Document.swift in Sources */,
+				14C44FDE19579BB40049383D /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C44FE919579BB40049383D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C44FF419579BB40049383D /* MIDIMacTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14C44FEF19579BB40049383D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14C44FD719579BB40049383D /* MIDIMacTest */;
+			targetProxy = 14C44FEE19579BB40049383D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14C44FE119579BB40049383D /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14C44FE219579BB40049383D /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		14C44FE619579BB40049383D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14C44FE719579BB40049383D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14C44FF519579BB40049383D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14C44FF619579BB40049383D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		14C44FF819579BB40049383D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MIDIMacTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14C44FF919579BB40049383D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MIDIMacTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14C44FFB19579BB40049383D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MIDIMacTest.app/Contents/MacOS/MIDIMacTest";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MIDIMacTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		14C44FFC19579BB40049383D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MIDIMacTest.app/Contents/MacOS/MIDIMacTest";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MIDIMacTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14C44FD319579BB40049383D /* Build configuration list for PBXProject "MIDIMacTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C44FF519579BB40049383D /* Debug */,
+				14C44FF619579BB40049383D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14C44FF719579BB40049383D /* Build configuration list for PBXNativeTarget "MIDIMacTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C44FF819579BB40049383D /* Debug */,
+				14C44FF919579BB40049383D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14C44FFA19579BB40049383D /* Build configuration list for PBXNativeTarget "MIDIMacTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C44FFB19579BB40049383D /* Debug */,
+				14C44FFC19579BB40049383D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14C44FD019579BB40049383D /* Project object */;
+}
